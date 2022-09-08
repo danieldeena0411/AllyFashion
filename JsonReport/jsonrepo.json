@@ -1,0 +1,614 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To validate valid username and valid password of Ally Webpage",
+        "description": "",
+        "id": "to-validate-login-functionality-of-ally-webpage;to-validate-valid-username-and-valid-password-of-ally-webpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3698817000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome web browser and maximize the chrome window",
+            "match": {
+              "location": "AllyFashLogin.to_launch_the_chrome_web_browser_and_maximize_the_chrome_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37854075600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of Ally Webpage",
+            "match": {
+              "location": "AllyFashLogin.to_launch_the_url_of_Ally_Webpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144914900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To pass valid username in email id field",
+            "match": {
+              "location": "AllyFashLogin.to_pass_valid_username_in_email_id_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113101200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass valid password in password text field",
+            "match": {
+              "location": "AllyFashLogin.to_pass_valid_password_in_password_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125254000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click login icon button",
+            "match": {
+              "location": "AllyFashLogin.to_click_login_icon_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2420758200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To close the chrome web browser",
+            "match": {
+              "location": "AllyFashLogin.to_close_the_chrome_web_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "To validate the positive and negative combination for login field",
+        "description": "",
+        "id": "to-validate-login-functionality-of-ally-webpage;to-validate-the-positive-and-negative-combination-for-login-field;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1819068400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To launch browser and max window",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_launch_browser_and_max_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34539997200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To launch the url of Ally Fashion",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_launch_the_url_of_Ally_Fashion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145317900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass positive and negative data \"tamilkrisha@gmail.com\" to email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tamilkrisha@gmail.com\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AllyLoginPosAndNegTest.to_pass_positive_and_negative_data_to_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158984600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass positive and negative data \"Tamil@97\" to password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tamil@97\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AllyLoginPosAndNegTest.to_pass_positive_and_negative_data_to_password_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7052270600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To click the login",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_click_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 490987100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To close browser",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "To validate the positive and negative combination for login field",
+        "description": "",
+        "id": "to-validate-login-functionality-of-ally-webpage;to-validate-the-positive-and-negative-combination-for-login-field;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2176825800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To launch browser and max window",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_launch_browser_and_max_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55548438400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To launch the url of Ally Fashion",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_launch_the_url_of_Ally_Fashion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156960800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass positive and negative data \"vivektamil@gmail.com\" to email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vivektamil@gmail.com\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AllyLoginPosAndNegTest.to_pass_positive_and_negative_data_to_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129655500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass positive and negative data \"Krisha@14\" to password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Krisha@14\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AllyLoginPosAndNegTest.to_pass_positive_and_negative_data_to_password_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16790762400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To click the login",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_click_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2416437300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To close browser",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "To validate the positive and negative combination for login field",
+        "description": "",
+        "id": "to-validate-login-functionality-of-ally-webpage;to-validate-the-positive-and-negative-combination-for-login-field;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1765259300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To launch browser and max window",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_launch_browser_and_max_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45731986400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To launch the url of Ally Fashion",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_launch_the_url_of_Ally_Fashion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160369800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass positive and negative data \"vitam18@gmail.com\" to email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vitam18@gmail.com\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AllyLoginPosAndNegTest.to_pass_positive_and_negative_data_to_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116785200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass positive and negative data \"Shree@92\" to password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shree@92\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AllyLoginPosAndNegTest.to_pass_positive_and_negative_data_to_password_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11535571500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To click the login",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_click_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2444737200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To close browser",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "To validate the positive and negative combination for login field",
+        "description": "",
+        "id": "to-validate-login-functionality-of-ally-webpage;to-validate-the-positive-and-negative-combination-for-login-field;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1695569600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To launch browser and max window",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_launch_browser_and_max_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52704378500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To launch the url of Ally Fashion",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_launch_the_url_of_Ally_Fashion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139556900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass positive and negative data \"vtk914@gmail.com\" to email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vtk914@gmail.com\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AllyLoginPosAndNegTest.to_pass_positive_and_negative_data_to_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113718300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass positive and negative data \"Vitam@14\" to password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vitam@14\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AllyLoginPosAndNegTest.to_pass_positive_and_negative_data_to_password_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9182351400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To click the login",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_click_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 386700100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To close browser",
+            "match": {
+              "location": "AllyLoginPosAndNegTest.to_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality of Ally Webpage",
+    "description": "",
+    "id": "to-validate-login-functionality-of-ally-webpage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/Ally.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To validate login with invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functions-of-ally-fashion-webpage;to-validate-login-with-invalid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1820361900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To lunch the chrome and maxi",
+            "match": {
+              "location": "AllyValidorInvalidPwd.to_lunch_the_chrome_and_maxi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25811185100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the url of Ally sign in page",
+            "match": {
+              "location": "AllyValidorInvalidPwd.to_launch_the_url_of_Ally_sign_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137283000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass the invalid username in email field",
+            "match": {
+              "location": "AllyValidorInvalidPwd.to_pass_the_invalid_username_in_email_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "emailone",
+                  "andrewbrains@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "emailtwo",
+                  "carlosdrakes@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "emailthree",
+                  "taylorvinso@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133596900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass the invalid password in password field",
+            "match": {
+              "location": "AllyValidorInvalidPwd.to_pass_the_invalid_password_in_password_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "passwordone",
+                  "passwordtwo",
+                  "passwordthree"
+                ]
+              },
+              {
+                "cells": [
+                  "Brainandre@77",
+                  "drewbrain@17",
+                  "ABwilson@65"
+                ]
+              },
+              {
+                "cells": [
+                  "Drakestriker@7",
+                  "carl@4555",
+                  "Viper@dc"
+                ]
+              },
+              {
+                "cells": [
+                  "tayvins@451",
+                  "Vins54@Tv",
+                  "Taylor@vi"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28938415900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To click the submit button",
+            "match": {
+              "location": "AllyValidorInvalidPwd.to_click_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 707782100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "To close the browser",
+            "match": {
+              "location": "AllyValidorInvalidPwd.to_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functions of Ally Fashion Webpage",
+    "description": "",
+    "id": "to-validate-the-login-functions-of-ally-fashion-webpage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/AllyLogin.feature",
+    "tags": []
+  }
+]

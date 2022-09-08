@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="349.316701">
+<testcase classname="To validate login functionality of Ally Webpage" name="To validate valid username and valid password of Ally Webpage" time="44.362903">
+<system-out><![CDATA[Given To launch the chrome web browser and maximize the chrome window.......passed
+When To launch the url of Ally Webpage......................................passed
+And To pass valid username in email id field................................passed
+And To pass valid password in password text field...........................passed
+And To click login icon button..............................................passed
+Then To close the chrome web browser........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality of Ally Webpage" name="To validate the positive and negative combination for login field" time="44.207079">
+<system-out><![CDATA[Given To launch browser and max window......................................passed
+When To launch the url of Ally Fashion......................................passed
+When To pass positive and negative data "tamilkrisha@gmail.com" to email field.passed
+When To pass positive and negative data "Tamil@97" to password field........passed
+And To click the login......................................................passed
+Then To close browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality of Ally Webpage" name="To validate the positive and negative combination for login field 2" time="77.219432">
+<system-out><![CDATA[Given To launch browser and max window......................................passed
+When To launch the url of Ally Fashion......................................passed
+When To pass positive and negative data "vivektamil@gmail.com" to email field.passed
+When To pass positive and negative data "Krisha@14" to password field.......passed
+And To click the login......................................................passed
+Then To close browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality of Ally Webpage" name="To validate the positive and negative combination for login field 3" time="61.755385">
+<system-out><![CDATA[Given To launch browser and max window......................................passed
+When To launch the url of Ally Fashion......................................passed
+When To pass positive and negative data "vitam18@gmail.com" to email field..passed
+When To pass positive and negative data "Shree@92" to password field........passed
+And To click the login......................................................passed
+Then To close browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality of Ally Webpage" name="To validate the positive and negative combination for login field 4" time="64.222876">
+<system-out><![CDATA[Given To launch browser and max window......................................passed
+When To launch the url of Ally Fashion......................................passed
+When To pass positive and negative data "vtk914@gmail.com" to email field...passed
+When To pass positive and negative data "Vitam@14" to password field........passed
+And To click the login......................................................passed
+Then To close browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functions of Ally Fashion Webpage" name="To validate login with invalid username and invalid password" time="57.549026">
+<system-out><![CDATA[Given To lunch the chrome and maxi..........................................passed
+When To launch the url of Ally sign in page.................................passed
+And To pass the invalid username in email field.............................passed
+And To pass the invalid password in password field..........................passed
+And To click the submit button..............................................passed
+And To close the browser....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
